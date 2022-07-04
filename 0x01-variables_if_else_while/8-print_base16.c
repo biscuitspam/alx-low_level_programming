@@ -12,9 +12,9 @@ int main(void)
 	       	putchar(c);
 
   for (c = 97; c <= 102; i++)
-    putchar(c);
+	  putchar(c);
   
-  putchar("\n")
+  putchar("\n");
 
         return (0);
 }
