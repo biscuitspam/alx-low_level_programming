@@ -9,6 +9,7 @@ int main(void)
 	char c;
 
 	for (c = 'A'; c <= 'Z'; c++)
+		x = tolower(x);
 		putchar(c);
 	return (0);
 }
