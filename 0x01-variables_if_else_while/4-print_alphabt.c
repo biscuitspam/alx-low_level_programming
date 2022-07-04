@@ -12,10 +12,10 @@ int main(void)
 		putchar(c);
 	{
 		if (c == 101 || c == 113)
+	}
 			continue;
 
 		putchar(c);
-	}
   
   printf("\n");
     
