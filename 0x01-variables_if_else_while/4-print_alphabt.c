@@ -14,7 +14,7 @@ int main(void)
 	for (c = 65; c <= (65 + 25); c++)
 		putchar(c);
   
-  printf("\n")
+  printf("\n");
     
 	return (0);
 }
