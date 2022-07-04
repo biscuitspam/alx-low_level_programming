@@ -10,9 +10,12 @@ int main(void)
 
 	for (c = 97; c <= (97 + 25); c++)
 		putchar(c);
+	{
+		if (c == 101 || c == 113)
+			continue;
 
-	for (c = 65; c <= (65 + 25); c++)
 		putchar(c);
+	}
   
   printf("\n");
     
