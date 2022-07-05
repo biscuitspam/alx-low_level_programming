@@ -1,17 +1,16 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
+ * main - prints all single digit numbers of base
+ * 10 starting from 0, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int c;
+	int n;
 
-	for (c = 0; c <= 9; c++)
-	       	printf("%d", c);
-
-  printf("\n");
-
-        return (0);
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
+	return (0);
 }
