@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * main - main block
  * Description: print _putchar followe by a new line
  * Return: Always 0 (Success)
  */
