@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int _isdigit(int c);
 {
     char c;
 
