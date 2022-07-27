@@ -4,7 +4,7 @@
  * @argv: argument vector (displays arguments)
  * Return 0 : Success
  */
-int main(int namee, char *argv[])
+int main(int __namee__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
 	return (0);
