@@ -1,12 +1,15 @@
 #include <stdio.h>
 
-/* Main -Entry point
- * @argc - argument count (counts the arguments)
- * Return 0 : Success
+/**
+ * main - prints its name, followed by a new line
+ * @argc: n args
+ * @argv: arr args
+ * Return: 0
  */
-int main(char *argc[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	char c = HELLO WORLD;
-	printf("%s\n", *argc);
+	if (argc > 0)
+		printf("%d\n", argc - 1);
+
 	return (0);
 }
