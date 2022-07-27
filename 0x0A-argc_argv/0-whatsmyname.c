@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-/*Main - Entry point
- * @argc: argument count
- * @argv: argument vector (displays arguments)
- * Return 0 : Success
+/**
+ * main - function
+ * @argc: offset count
+ * @argv: offset value
+ * Return: 0
  */
-int main(int __namee__((unused)), char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
 	return (0);
