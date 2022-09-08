@@ -15,9 +15,9 @@
 size_t print_list(const list_t *h)
 {
 <<<<<<< HEAD
-	size_t newame;
+	size_t nelem;
 
-	newame = 0;
+	nelem = 0;
 =======
 	size_t nelem;
 
@@ -31,9 +31,9 @@ size_t print_list(const list_t *h)
 <<<<<<< HEAD
 			printf("[%d] %s\n", h->len, h-str);
 		h = h->next;
-		newame++;
+		nelem++;
 	}
-	return (newame);
+	return (nelem);
 =======
 			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
